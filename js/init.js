@@ -96,13 +96,6 @@
 		// Scrolly links.
 			$('.scrolly').scrolly(1000, -10);
 
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				mode: 'fade',
-				noOpenerFade: true,
-				expandMode: (skel.vars.isTouch ? 'click' : 'hover')
-			});
-
 		// Header.
 		// If the header is using "alt" styling and #banner is present, use scrollwatch
 		// to revert it back to normal styling once the user scrolls past the banner.
