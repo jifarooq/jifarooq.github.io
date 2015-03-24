@@ -8,7 +8,8 @@
 	}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		/*color: #7c8081;*/
+		color: #333;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -19,7 +20,6 @@
 	a {
 		color: #3fb1a3;
 		text-decoration: none;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
@@ -314,7 +314,7 @@
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
+		/*margin-bottom: 5em;*/
 		padding: 5em;
 	}
 
@@ -324,11 +324,11 @@
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
-			color: white;
+			color: black;
 		}
 
 			.wrapper.style2 .button:hover {
@@ -371,7 +371,7 @@
 		width: 20%;
 		height: 100%;
 		color: inherit;
-		background: #333333;
+		background: #333;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		text-align: right;
 	}
@@ -451,22 +451,23 @@
 		text-align: center;
 		/*min-height: 600px;*/
 		width: 100%;
+		border-bottom: 1px solid #bbb;
 	}
 
 	#main section#about {
 		background-image: url("../images/beach.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		color: black;
 		width: 100%;
 	}
 
 	#projects, #cta {
-		background-color: #666666;
+		color: #333;
+		background-color: #ccc;
 	}
 
 	#projects img {
-		max-width: 90%;
+		max-width: 85%;
 		margin: 1em;
 	}
 
@@ -485,7 +486,6 @@
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		color: white;
 		padding: 5em;
 		text-align: center;
 	}
