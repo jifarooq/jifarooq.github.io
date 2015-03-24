@@ -135,21 +135,48 @@
 			}
 
 			.icon.circle.fa-twitter {
-				background: #70aecd;
+				background: #33CCFF;
 				color: white;
 			}
 
 				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
+					background: #44ddFF;
+				}
+
+			.icon.circle.fa-facebook {
+				background: #3B5998;
+				color: white;
+			}
+
+				.icon.circle.fa-facebook:hover {
+					background: #4c6aa9;
 				}
 
 			.icon.circle.fa-github {
-				background: #dcad8b;
+				background: #ff9933;
 				color: white;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+					background: #ffaa44;
+				}
+
+			.icon.circle.fa-tumblr {
+				background: #2B4964;
+				color: white;
+			}
+
+				.icon.circle.fa-tumblr:hover {
+					background: #3c5a75;
+				}
+
+			.icon.circle.fa-linkedin {
+				background: #007bb6;
+				color: white;
+			}
+
+				.icon.circle.fa-linkedin:hover {
+					background: #118cc7;
 				}
 
 		.icon > .label {
