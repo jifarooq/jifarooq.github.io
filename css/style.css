@@ -36,12 +36,6 @@
 		text-align: center;
 	}
 
-/*	h1 {
-		font-size: 3em;
-		letter-spacing: 0.1em;
-		margin: -1em 0 1em;
-	}*/
-
 	h2 {
 		font-size: 2em;
 		letter-spacing: 0.1em;
@@ -241,32 +235,15 @@
 	}
 
 		#header img {
+			margin-top: 1em;
 			border-radius: 100%;
-			width: 50%;
+			max-width: 30%;
 		}
 
-		#header .icons
-		{
-			font-size: 0.8em;
-			margin: 0 0 1em 0;
-			text-align: center;
+		#header .small {
+			font-size: .9em;
+			margin-bottom: 6em;
 		}
-
-		#header .icons a
-		{
-			color: #41484c;
-			-moz-transition: color 0.35s ease-in-out;
-			-webkit-transition: color 0.35s ease-in-out;
-			-o-transition: color 0.35s ease-in-out;
-			-ms-transition: color 0.35s ease-in-out;
-			transition: color 0.35s ease-in-out;
-		}
-
-		#header .icons a:hover
-		{
-			color: #fff;
-		}
-
 
 		#header nav {
 			position: absolute;
@@ -283,11 +260,6 @@
 				line-height: 1em;
 				padding: 0.6em 0.75em;
 				text-decoration: none;
-				-moz-transition: none;
-				-webkit-transition: none;
-				-o-transition: none;
-				-ms-transition: none;
-				transition: none;
 			}
 
 			#header nav ul li.active > a, #header nav ul li:hover > a {
@@ -297,9 +269,6 @@
 				-ms-transition: all 0.2s ease-in-out;
 				transition: all 0.2s ease-in-out;
 				background: rgba(188, 202, 206, 0.15);
-			}
-
-			#header nav ul li.current > a {
 				font-weight: 900;
 			}
 
@@ -322,6 +291,7 @@
 
 	#nav .right {
 		float: right;
+		font-size: .8em;
 	}
 
 	#nav p {
