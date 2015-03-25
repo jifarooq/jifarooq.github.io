@@ -267,14 +267,6 @@
 			color: #fff;
 		}
 
-/*		#header h1 {
-			font-weight: 900;
-			margin: 0;
-		}
-
-			#header h1 span {
-				font-weight: 300;
-			}*/
 
 		#header nav {
 			position: absolute;
@@ -319,6 +311,24 @@
 			animation: reveal-header 0.5s;
 		}
 
+/* Nav */
+	#nav a {
+		width: 90%;
+	}
+
+	#nav .left {
+		float: left;
+	}
+
+	#nav .right {
+		float: right;
+	}
+
+	#nav p {
+		color: white;
+	}
+
+
 /* Main */
 	#main {
 		margin-left: 20%;
@@ -327,32 +337,43 @@
 
 		#main section {
 			overflow: hidden;
-			padding: 7.5em 0;
+			padding: 5em 0;
 			text-align: center;
 			width: 100%;
 			border-bottom: 1px solid #999;
 		}
 
-		#main .sub-header {
-			margin: -1em 0 1em;
-		}
+			#main .sub-header {
+				margin: -1em 0 1em;
+			}
 
-		#about {
-			background-image: url("../images/beach.jpg");
-			background-repeat: no-repeat;
-			background-size: cover;
-			width: 100%;
-		}
+			#main #about {
+				background-image: url("../images/beach.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				padding: 7.5em 0;
+				width: 100%;
+				height: 900px;
+			}
 
 		#projects, #cta {
 			color: #333;
 			background-color: #aaa;
 		}
 
-		#projects img {
-			max-width: 85%;
-			margin: 2.5em;
-		}
+			#projects img, #projects p {
+				max-width: 85%;
+				margin: 1.5em;
+			}
+
+			#projects p {
+				max-width: 100%;
+				font-size: 1em;
+			}
+
+			#projects h3 {
+				margin: 0 auto;
+			}
 
 		#skills {
 			background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
@@ -362,6 +383,7 @@
 
 			#skills img {
 				max-width: 75%;
+				margin: 0.5em;
 			}
 
 			#skills .my-label {
