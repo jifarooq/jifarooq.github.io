@@ -7,8 +7,12 @@
 		background: #f3f6fa;
 	}
 
+	/* UNCOMMENT TO SEE BOX MODEL OVERVIEW */
+/*	article, section, nav, ul, li, p, a, div, h2, h3, img {
+		border: solid 1px red;
+	}*/
+
 	body, input, select, textarea {
-		/*color: #7c8081;*/
 		color: #333;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
