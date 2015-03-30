@@ -383,9 +383,8 @@
 	#footer {
 		background: #e8eef4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
 		text-align: center;
-		max-height: 0.5em;
+		padding: 5em 5em 10em 5em;
 		bottom: 0;
 	}
 
@@ -393,6 +392,7 @@
 			background: inherit;
 			font-size: 0.8em;
 			line-height: 1em;
+			width: 100%;
 		}
 
 			#footer .copyright a {
@@ -401,6 +401,6 @@
 
 			#footer .copyright li {
 				display: inline-block;
-				margin: 1em;
+				margin: 1em 1em -1em;
 				padding: 1em;
 			}
