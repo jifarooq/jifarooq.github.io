@@ -5,20 +5,17 @@
 */
 
 (function($) {
-	// var stylesheets = ['basic', 'icons', 'header', 'main', 'footer'];
-	// var folder = 'css/style/';
-	// var hrefs = stylesheets.map(function(sheet) {
-	// 	return folder + sheet + '.css';
-	// });
 
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			globalBasic:		{ range: '*', href: 'css/style/basic.css', containers: 1400, grid: { gutters: 50 } },
-			globalIcons:		{ range: '*', href: 'css/style/icons.css', containers: 1400, grid: { gutters: 50 } },
-			globalHeader:		{ range: '*', href: 'css/style/header.css', containers: 1400, grid: { gutters: 50 } },
-			globalMain:		{ range: '*', href: 'css/style/main.css', containers: 1400, grid: { gutters: 50 } },
-			globalFooter:		{ range: '*', href: 'css/style/footer.css', containers: 1400, grid: { gutters: 50 } },
+			// first 5 breakpoints are all global
+			basic:		{ range: '*', href: 'css/style/basic.css', containers: 1400, grid: { gutters: 50 } },
+			icons:		{ range: '*', href: 'css/style/icons.css', containers: 1400, grid: { gutters: 50 } },
+			header:		{ range: '*', href: 'css/style/header.css', containers: 1400, grid: { gutters: 50 } },
+			main:		{ range: '*', href: 'css/style/main.css', containers: 1400, grid: { gutters: 50 } },
+			footer:		{ range: '*', href: 'css/style/footer.css', containers: 1400, grid: { gutters: 50 } },
+
 			wide:		{ range: '-1680', href: 'css/style-wide.css', containers: 1200, grid: { gutters: 40 } },
 			normal:		{ range: '-1280', href: 'css/style-normal.css', containers: 960, viewport: { scalable: false } },
 			narrow:		{ range: '-980', href: 'css/style-narrow.css', containers: '95%', grid: { gutters: 30 } },

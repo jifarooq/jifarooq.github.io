@@ -1,4 +1,4 @@
-/* Styles for contact info and footer */
+/* Styles for contact info (cta) and footer */
 
 /* CTA */
 
@@ -17,8 +17,9 @@
 		background: #e8eef4;
 		color: #7c8081;
 		text-align: center;
-		padding: 5em 5em 10em 5em;
+		
 		bottom: 0;
+		padding: 5em 5em 10em 5em;
 	}
 
 		#footer .copyright {

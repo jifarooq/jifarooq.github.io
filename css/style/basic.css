@@ -1,7 +1,7 @@
-@import url("font-awesome.min.css");
+@import url("../font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
-/* Includes general tag styles, section/articles, and images */
+/* Includes general styles for tags and images */
 
 	/* Uncomment to see box model overview */
 /*	article, section, nav, ul, li, p, a, div, h2, h3, img {
@@ -12,7 +12,7 @@
 		background: #f3f6fa;
 	}
 
-	body, input, select, textarea {
+	body, input {
 		color: #333;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
@@ -52,11 +52,6 @@
 		margin-bottom: 2.5em;
 	}
 
-
-/* Section/Article */
-	section.special, article.special {
-		text-align: center;
-	}
 
 /* Image */
 	.image {
