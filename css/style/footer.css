@@ -1,0 +1,39 @@
+/* Styles for contact info and footer */
+
+/* CTA */
+
+	#cta {
+		padding: 5em;
+		text-align: center;
+	}
+
+		#cta header {
+			margin-bottom: 2em;
+		}
+
+/* Footer */
+
+	#footer {
+		background: #e8eef4;
+		color: #7c8081;
+		text-align: center;
+		padding: 5em 5em 10em 5em;
+		bottom: 0;
+	}
+
+		#footer .copyright {
+			background: inherit;
+			font-size: 0.8em;
+			line-height: 1em;
+			width: 100%;
+		}
+
+			#footer .copyright a {
+				color: inherit;
+			}
+
+			#footer .copyright li {
+				display: inline-block;
+				margin: 1em 1em -1em;
+				padding: 1em;
+			}

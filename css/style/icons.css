@@ -1,0 +1,117 @@
+/* Styles for social media icons and buttons */
+
+/* Icon */
+	.icon {
+		position: relative;
+	}
+
+		.icon:before {
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon.circle {
+			border: 0;
+			border-radius: 100%;
+			display: inline-block;
+			font-size: 1.25em;
+			height: 2.25em;
+			left: 0;
+			line-height: 2.25em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 2.25em;
+		}
+
+			.icon.circle:hover {
+				top: -0.2em;
+			}
+
+			.icon.circle.fa-twitter {
+				background: #33CCFF;
+				color: white;
+			}
+
+				.icon.circle.fa-twitter:hover {
+					background: #44ddFF;
+				}
+
+			.icon.circle.fa-facebook {
+				background: #3B5998;
+				color: white;
+			}
+
+				.icon.circle.fa-facebook:hover {
+					background: #4c6aa9;
+				}
+
+			.icon.circle.fa-github {
+				background: #ff9933;
+				color: white;
+			}
+
+				.icon.circle.fa-github:hover {
+					background: #ffaa44;
+				}
+
+			.icon.circle.fa-tumblr {
+				background: #2B4964;
+				color: white;
+			}
+
+				.icon.circle.fa-tumblr:hover {
+					background: #3c5a75;
+				}
+
+			.icon.circle.fa-linkedin {
+				background: #007bb6;
+				color: white;
+			}
+
+				.icon.circle.fa-linkedin:hover {
+					background: #118cc7;
+				}
+
+		.icon > .label {
+			display: none;
+		}
+
+/* List */
+	ul.icons {
+		cursor: default;
+	}
+
+		ul.icons li {
+			display: inline-block;
+			line-height: 1em;
+			padding-left: 0.5em;
+		}
+
+			ul.icons li:first-child {
+				padding-left: 0;
+			}
+
+/* Button */
+	.button {
+		border: solid 1px;
+		display: inline-block;
+		font-size: 0.8em;
+		font-weight: 900;
+		letter-spacing: 2px;
+		line-height: 3.75em;
+		min-width: 18em;
+	}
+
+		.button.special {
+			background: #3fb1a3;
+			border-color: #3fb1a3;
+			color: white !important;
+		}
+
+			.button.special:hover {
+				background: #4fc2b4 !important;
+				border-color: #4fc2b4 !important;
+			}
