@@ -10,11 +10,11 @@
 		reset: 'full',
 		breakpoints: {
 			// first 5 breakpoints are all global
-			basic:		{ range: '*', href: 'css/style/basic.css', containers: 1400, grid: { gutters: 50 } },
-			icons:		{ range: '*', href: 'css/style/icons.css', containers: 1400, grid: { gutters: 50 } },
-			header:		{ range: '*', href: 'css/style/header.css', containers: 1400, grid: { gutters: 50 } },
-			main:		{ range: '*', href: 'css/style/main.css', containers: 1400, grid: { gutters: 50 } },
-			footer:		{ range: '*', href: 'css/style/footer.css', containers: 1400, grid: { gutters: 50 } },
+			basic:		{ range: '*', href: 'css/global/basic.css', containers: 1400, grid: { gutters: 50 } },
+			icons:		{ range: '*', href: 'css/global/icons.css', containers: 1400, grid: { gutters: 50 } },
+			header:		{ range: '*', href: 'css/global/header.css', containers: 1400, grid: { gutters: 50 } },
+			main:		{ range: '*', href: 'css/global/main.css', containers: 1400, grid: { gutters: 50 } },
+			footer:		{ range: '*', href: 'css/global/footer.css', containers: 1400, grid: { gutters: 50 } },
 
 			wide:		{ range: '-1680', href: 'css/style-wide.css', containers: 1200, grid: { gutters: 40 } },
 			normal:		{ range: '-1280', href: 'css/style-normal.css', containers: 960, viewport: { scalable: false } },
